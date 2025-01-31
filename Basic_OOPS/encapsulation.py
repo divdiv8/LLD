@@ -18,7 +18,7 @@ class Interview:
 
 num1 = Interview("OA", "A", "B", [1,2,3,4,5,6],[7,8,9,10,11,12])
 print(num1.interview_type)
-#print(num1.__interview_questions)
+#print(num1.__interview_questions) # error - because we are trying to access a private variable
 print(num1.get_interview_questions(3))
 print(num1.get_solution(2))
         
